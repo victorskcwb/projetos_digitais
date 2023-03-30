@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Carregando o conjunto de dados
-data = pd.read_csv('diabetes.csv')
+data = pd.read_csv('datasets/diabetes.csv')
 
 # Separando os dados em variáveis de entrada e saída
 X = data.iloc[:, :-1].values
